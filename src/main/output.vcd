@@ -1,0 +1,202 @@
+$date
+	Tue Sep 28 16:00:33 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test_fetch $end
+$var wire 8 ! inst [7:0] $end
+$var reg 1 " clk $end
+$var reg 1 # isjump $end
+$var reg 4 $ jumpadrs [3:0] $end
+$var reg 1 % rst $end
+$scope module i0 $end
+$var wire 1 " clk $end
+$var wire 1 # isjump $end
+$var wire 4 & jumpadrs [3:0] $end
+$var wire 1 % rst $end
+$var wire 4 ' selout [3:0] $end
+$var wire 4 ( pcout [3:0] $end
+$var wire 4 ) nxtadrs [3:0] $end
+$var wire 8 * inst [7:0] $end
+$scope module i0 $end
+$var wire 1 " clk $end
+$var wire 1 % rst $end
+$var wire 4 + in [3:0] $end
+$var reg 4 , out [3:0] $end
+$upscope $end
+$scope module i1 $end
+$var wire 4 - in1 [3:0] $end
+$var wire 4 . in2 [3:0] $end
+$var reg 4 / out [3:0] $end
+$upscope $end
+$scope module i2 $end
+$var wire 4 0 in1 [3:0] $end
+$var wire 4 1 in2 [3:0] $end
+$var wire 1 # sel $end
+$var reg 4 2 out [3:0] $end
+$upscope $end
+$scope module i3 $end
+$var wire 4 3 ad [3:0] $end
+$var reg 8 4 do [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 4
+b0 3
+b1 2
+bx 1
+b1 0
+b1 /
+b1 .
+b0 -
+b0 ,
+b1 +
+bx *
+b1 )
+b0 (
+b1 '
+bx &
+0%
+bx $
+0#
+0"
+bx !
+$end
+#1
+b1010 !
+b1010 *
+b1010 4
+#100
+b10 '
+b10 +
+b10 2
+b10 )
+b10 /
+b10 0
+b1 (
+b1 ,
+b1 -
+b1 3
+1"
+1%
+#101
+b1010001 !
+b1010001 *
+b1010001 4
+#200
+0"
+#300
+b11 '
+b11 +
+b11 2
+b11 )
+b11 /
+b11 0
+b10 (
+b10 ,
+b10 -
+b10 3
+1"
+#301
+b110000 !
+b110000 *
+b110000 4
+#400
+0"
+#500
+b100 '
+b100 +
+b100 2
+b100 )
+b100 /
+b100 0
+b11 (
+b11 ,
+b11 -
+b11 3
+1"
+#501
+b1110000 !
+b1110000 *
+b1110000 4
+#600
+0"
+#700
+b101 '
+b101 +
+b101 2
+b101 )
+b101 /
+b101 0
+b100 (
+b100 ,
+b100 -
+b100 3
+1"
+#701
+b10101 !
+b10101 *
+b10101 4
+#800
+0"
+#900
+b110 '
+b110 +
+b110 2
+b110 )
+b110 /
+b110 0
+b101 (
+b101 ,
+b101 -
+b101 3
+1"
+#901
+b1000111 !
+b1000111 *
+b1000111 4
+#1000
+0"
+#1100
+b111 '
+b111 +
+b111 2
+b111 )
+b111 /
+b111 0
+b110 (
+b110 ,
+b110 -
+b110 3
+1"
+#1101
+b11111111 !
+b11111111 *
+b11111111 4
+#1200
+0"
+#1300
+b1000 '
+b1000 +
+b1000 2
+b1000 )
+b1000 /
+b1000 0
+b111 (
+b111 ,
+b111 -
+b111 3
+1"
+#1301
+b0 !
+b0 *
+b0 4
+#1400
+0"
