@@ -1,7 +1,7 @@
 `include "counter.v"
 `include "rom.v"
 `include "adder.v"
-`include "select.v"
+`include "fetch_select.v"
 
 module fetch (rst, clk, jumpadrs, isjump, inst);
 	input rst, clk, isjump;

@@ -6,7 +6,7 @@ module exstage (
 	input reg is_imm,
 	input reg [3:0] im_4,
 	input reg[3:0] inreg,
-	output reg[3:0] out;
+	output reg[3:0] out
 );
 	reg[0:4] add_out;
 

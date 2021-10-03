@@ -1,14 +1,10 @@
 module select (
-	input reg[0:3] add,
-	input reg[0:1] im,
-	input reg is_imm,
-	output reg[0:3] out;
+	input [0:3] add,
+	input [0:3] im,
+	input is_imm,
+	output [0:3] out
 );
-	always @(posedge CLK) begin
-		case (isimm)
-			1 :
-			out[0:3]<=add[0:3];
-			default:
-		endcase
-	end
+		if(is_imm == 0)begin
+			out[0:3] <= add[0:3];
+		end
 endmodule

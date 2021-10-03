@@ -10,7 +10,7 @@ module Decode (
     output reg mem_w,
     output reg is_jump,
     output reg s_reg,
-    output reg out_reg;
+    output reg out_reg
 );
 
     /*Decode内からでExステージにレジスタの値を渡すように仕様変更
@@ -26,7 +26,7 @@ module Decode (
         case(inst[7:4])
             4'b0000 :
                 operation();
-                out_reg = a;
+                out_reg <= a;
             4'b0101 :
                 operation();
                 out_reg = b;
