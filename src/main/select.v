@@ -4,7 +4,5 @@ module select (
 	input is_imm,
 	output [0:3] out
 );
-		if(is_imm == 0)begin
-			out[0:3] <= add[0:3];
-		end
+	assign	out=(is_imm==1'b0)? add:3'b000;
 endmodule
